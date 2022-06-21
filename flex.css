@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Dancing+Script&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Lexend+Deca:wght@100&family=Poppins:wght@300&family=Roboto:ital,wght@1,100&family=Square+Peg&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lexend deca;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+  @media screen and (max-width: 1440px) {
+ 
+
+
+.main-tab{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.main-tab .first-tab{
+    background: hsla(31, 77%, 52%);
+    font-size: 16px;
+    height: 500px;
+    width: 100%;
+    padding: 40px 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.main-tab .second-tab{
+    background: hsla(184, 100%, 21%);
+    font-size: 16px;
+    height: 500px;
+    width: 100%;
+    padding: 40px 30px;
+}
+.main-tab .third-tab{
+    background: hsla(179, 0%, 13%);
+    font-size: 16px;
+    height: 500px;
+    width: 100%;
+    padding: 40px 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1{
+    font-size: 27px;
+    padding-top: 30px;
+    font-family: poppins;
+    color: hsl(0, 0%, 95%);
+    font-weight: bolder;
+}
+
+p{
+    padding-top: 30px;
+    line-height: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: poppins;
+    font-weight: 400;
+
+}
+
+
+.btn-1{
+    margin-top: 110px;
+    align-items: center;
+    text-align: center;
+}
+a{
+    border-radius: 20px;
+    padding: 10px 19px;
+    border-color: 2px hsl(0, 0%, 95%);
+    font-family: poppins;
+    text-decoration: none;
+    background: hsla(0, 0%, 100%, 0.75) ;
+}
+a:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: rgba(212, 207, 207, 0);
+    border-color: #f5f5f5;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+.btn-3{
+    margin-top: 88px;
+    text-align: center;
+    border-color: white;
+}
+
+.a-first{
+    color:hsla(31, 77%, 52%) ;
+    font-weight: bolder;
+    
+}
+.a-second{
+    color: hsla(184, 100%, 21%) ;
+    font-weight: bolder;
+}
+
+.a-third{
+    color: hsla(179, 0%, 13%);
+    font-weight: bolder;
+}
+  }
+
+@media only screen and  (max-width:  550px){
+    
+    .main-tab{
+        display:block;
+        width: 90%;
+        height: 100vh;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .main-tab .first-tab{
+        background: hsla(31, 77%, 52%);
+        font-size: 16px;
+        height: 500px;
+        width: 100%;
+        padding: 40px 30px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+}
+.main-tab .third-tab{
+    background: hsla(179, 0%, 13%);
+    font-size: 16px;
+    height: 500px;
+    width: 100%;
+    padding: 40px 30px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+}
+}
+
+@media only screen and  (max-width:  375px){
+    
+    .main-tab{
+        display:block;
+        width: 90%;
+        height: 100vh;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .main-tab .first-tab{
+        background: hsla(31, 77%, 52%);
+        font-size: 16px;
+        height: 500px;
+        width: 100%;
+        padding: 40px 30px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+}
+.main-tab .third-tab{
+    background: hsla(179, 0%, 13%);
+    font-size: 16px;
+    height: 500px;
+    width: 100%;
+    padding: 40px 30px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+}
+}
